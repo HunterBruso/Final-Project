@@ -2,13 +2,12 @@
 
 (this is an example only. Edit this file as you see fit. It is recommended that you also include a copy of the original data used for this project in this folder - typically in `.csv` format)
 
-We use the `IMDB_movies.csv` dataset available at 
-<https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv>
+I used the `commanders.csv` dataset available at 
+<https://raw.githubusercontent.com/HunterBruso/Final-Project/master/List%20Of%20Commanders.csv>
 
-This dataset includes information of popular movies on IMDB in the last 10 years. 
+This dataset includes information of popular commanders. 
 
-The data fields included are: Title, Genre, Description, Director, Actors, Year, Runtime, Rating, Votes, Revenue, Metascore (score of the movie on the metacritic website)
+The data fields included are: Name, Year, Tier
 
-Below we include some basic statistics for this datasets, including dimensions and range of years ...
+Below we include some basic statistics for this datasets, including rank of the commanders and range of years of when the cards came out
 
-(add basic summary if needed. Notice that the information above can be reused for one of the sections for the final project report)
