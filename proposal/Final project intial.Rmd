@@ -1,8 +1,0 @@
----
-title: "Preliminary Analysis
-"
-output: html_notebook
----
-My inital idea for this project is to create a list of the most popular commanders from the invention of the game of magic the gathering and evaluate through the use of graphs on how they have changed through out magic history
-
-using things like ggplot to make bar grapsh i can show how they have changed throught history
