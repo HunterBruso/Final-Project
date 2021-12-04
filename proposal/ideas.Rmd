@@ -7,12 +7,12 @@ output: html_notebook
 
 ## Section 1. Introduction
 
-Include a brief **introduction or motivation** here
+In this project, we are interested in the Netflix database, mostly because we use it every day. 
 
 ## Section 2. Data Analysis Plan
 
-List any **initial questions** you plan to explore in this project. 
+With this project, we wanted to analyze the rating description to the user rating score that can be found in the netflixShows.csv.
 
 ## Section 3. Data
 
-Include a brief **description of your dataset** (source, available attributes, format, etc.)
+We are interested in this analysis because we wanted see how user ratings stand up to the rating description. We believe that user ratings are more important than rating descriptions and want to see how they are affected. The data set is made up of many movies wwith difrent attributes.
