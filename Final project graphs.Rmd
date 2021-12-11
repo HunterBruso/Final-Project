@@ -1,0 +1,220 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+```{r}
+commanders <- read_csv("https://raw.githubusercontent.com/HunterBruso/Final-Project/master/List%20Of%20Netflix%20shows.csv")
+
+```
+
+
+```{r}
+view(commanders)
+```
+
+```{r}
+S_RD <- commanders %>%
+  filter(RatingDescription == "S")
+S_RD
+```
+```{r}
+
+S_UR <- commanders %>%
+  filter(UserRatingScore == "S")
+S_UR
+```
+
+```{r}
+A_RD <- commanders %>%
+  filter(RatingDescription == "A")
+A_RD
+```
+
+```{r}
+
+A_UR <- commanders %>%
+  filter(UserRatingScore == "A")
+A_UR
+```
+
+
+
+```{r}
+
+B_RD <- commanders %>%
+  filter(RatingDescription == "B")
+B_RD
+```
+```{r}
+
+B_UR <- commanders %>%
+  filter(UserRatingScore == "B")
+B_UR
+```
+
+```{r}
+
+C_RD <- commanders %>%
+  filter(RatingDescription == "C")
+C_RD
+```
+
+
+```{r}
+
+C_UR <- commanders %>%
+  filter(UserRatingScore == "C")
+C_UR
+```
+
+```{r}
+
+D_RD <- commanders %>%
+  filter(RatingDescription == "D")
+D_RD
+```
+
+
+```{r}
+
+D_UR <- commanders %>%
+  filter(UserRatingScore == "D")
+D_UR
+```
+
+
+```{r}
+
+F_UR <- commanders %>%
+  filter(UserRatingScore == "F")
+F_UR
+```
+
+```{r}
+
+F_RD <- commanders %>%
+  filter(RatingDescription == "F")
+F_RD
+```
+
+
+
+```{r}
+  ggplot(S_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+```{r}
+  ggplot(S_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+
+
+```{r}
+  ggplot(A_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+
+
+```{r}
+  ggplot(A_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+```{r}
+  ggplot(B_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+
+
+```{r}
+  ggplot(B_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+```{r}
+  ggplot(C_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+
+```{r}
+  ggplot(C_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+```{r}
+  ggplot(D_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+
+```{r}
+  ggplot(D_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+```{r}
+  ggplot(F_RD, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("RatingDescription")
+```
+
+
+```{r}
+  ggplot(F_UR, aes(x=Year)) +geom_bar() + xlab("Year Made") + ylab("UserRatingScore")
+```
+
+
+
+```{r}
+count(S_RD)
+```
+```{r}
+count(S_UR)
+```
+```{r}
+count(A_RD)
+```
+
+```{r}
+count(A_UR)
+```
+```{r}
+count(B_RD)
+```
+
+
+```{r}
+count(B_UR)
+```
+
+```{r}
+count(C_RD)
+```
+
+
+```{r}
+count(C_UR)
+```
+
+```{r}
+count(D_RD)
+```
+
+
+
+```{r}
+count(D_UR)
+```
+
+```{r}
+count(F_RD)
+```
+
+
+
+```{r}
+count(F_UR)
+```
